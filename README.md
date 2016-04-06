@@ -17,7 +17,7 @@ The easiest way to get started is to clone the repository:
 
 ```bash
 # Get the latest snapshot
-$ git clone https://github.com/mountain-code/symfony-sonata-admin myproject
+$ git clone https://github.com/mountain-code/symfony-sonata-media-admin myproject
 $ cd myproject
 $ git remote rm origin
 
