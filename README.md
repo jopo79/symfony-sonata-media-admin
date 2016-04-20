@@ -57,7 +57,7 @@ Go to http://www.myproject.local/app_dev.php/admin to access the admin and refer
 SonataMediaBundle comes with CKEditor. CoopTilleulsCKEditorSonataMediaBundle is already installed and configured in this
 boilerplate. You can add a full featured RTE with media integration to your Admin this way:
 
-```
+``` php
 protected function configureFormFields(FormMapper $formMapper)
 {
     $formMapper
