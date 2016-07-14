@@ -11,6 +11,14 @@
             "app/AppCache.php"
         ]
     },
+     
+    "repositories": [
+        {
+        "type": "vcs",
+            "url": "https://github.com/sidz/SonataMediaBundle.git"
+        }
+    ],
+       
     "require": {
         "php": ">=5.3.9",
         "symfony/symfony": "2.8.*",
@@ -26,7 +34,7 @@
         "sonata-project/doctrine-orm-admin-bundle": "~2.3",
         "sonata-project/user-bundle": "^2.2",
         "doctrine/doctrine-fixtures-bundle": "^2.3",
-        "sonata-project/media-bundle": "^2.3",
+        "sonata-project/media-bundle": "2.3.x-dev",
         "tilleuls/ckeditor-sonata-media-bundle": "^1.0",
         "egeloen/ckeditor-bundle": "^4.0"
     },
